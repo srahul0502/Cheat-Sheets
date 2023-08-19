@@ -3,7 +3,7 @@
 
 
 
-## Ls Command
+# Ls Command
 
 List the contents of the current working directory.
 
@@ -20,7 +20,7 @@ List the contents of the current working directory.
 - `-m`: Comma-separated output.
 - `-Q`: Quoted output.
 
-## Bash Commands
+# Bash Commands
 
 Automate software development tasks.
 
@@ -33,7 +33,7 @@ Automate software development tasks.
 - `whoami`: Show your username.
 - `man command`: Show manual for command.
 
-## Pipes
+# Pipes
 
 Takes the standard output of one process and passes it as standard input into another process.
 
@@ -41,7 +41,7 @@ Takes the standard output of one process and passes it as standard input into an
 - `cmd1 | cmd2`: Stdout of cmd1 to cmd2.
 - `cmd1 | &cmd2`: Stderr to cmd2.
 
-## File Permissions
+# File Permissions
 
 Determine who can access files and directories on a system.
 
@@ -55,7 +55,7 @@ Determine who can access files and directories on a system.
 - `chmod 755 file`: rw for user, rx for group and others.
 - `chown usr:grp file`: Change the file owner to user and group to group.
 
-## Networking
+# Networking
 
 Commands related to networks.
 
@@ -73,7 +73,7 @@ Commands related to networks.
 - `ssh -p port user@host`: Connect using port.
 - `ssh -i path-to-pem-file ubuntu@ip-address`: Used to connect to Amazon EC2.
 
-## I/O Redirection
+# I/O Redirection
 
 Redirecting input/output.
 
@@ -88,7 +88,7 @@ Redirecting input/output.
 - `cmd 2 > &1`: Stderr to the same place as stdout.
 - `cmd &> file`: Every output of cmd to file.
 
-## Bash Variables
+# Bash Variables
 
 Temporary storage for strings or numbers.
 
@@ -99,7 +99,7 @@ Temporary storage for strings or numbers.
 - `$HOME`: Home directory.
 - `$SHELL`: Current shell.
 
-## Directory
+# Directory
 
 Commands for working with directories.
 
@@ -110,7 +110,7 @@ Commands for working with directories.
 - `cd ..`: Go up a directory.
 - `ls`: List files.
 
-## Search Files
+# Search Files
 
 Commands to search for files.
 
@@ -126,7 +126,7 @@ Commands to search for files.
 - `whereis command`: Find binary/source/manual for command.
 - `locate file`: Find file (quick search of system index).
 
-## File Operations
+# File Operations
 
 Commands for working with files.
 
@@ -142,7 +142,7 @@ Commands for working with files.
 - `tail file1`: Show the last 10 lines of file1.
 - `tail -f file1`: Output the last lines of file1 as it changes.
 
-## Process
+# Process
 
 Viewing and managing processes.
 
