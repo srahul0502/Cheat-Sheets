@@ -1,13 +1,13 @@
 # ![Logo](https://github.com/srahul0502/Cheat-Sheets/blob/main/Git/logo.png) Ultimate Git Cheat Sheet 🚀
 
-## Create Git Repository
+# Create Git Repository
 
 ### Remote Update
 ```bash
 git remote update
 ```
 
-## Branching
+# Branching
 
 ### List Branches
 ```bash
@@ -44,7 +44,7 @@ git tag tag-name
 git checkout -b branch
 ```
 
-## 🛠️ Local Changes
+# 🛠️ Local Changes
 
 ### Changed in Working Directory
 ```bash
@@ -112,7 +112,7 @@ git revert HEAD
 git reset --hard HEAD
 ```
 
-## 🏁 Starting a New Repository
+# 🏁 Starting a New Repository
 
 ### From Existing Directory
 ```bash
@@ -127,7 +127,7 @@ git clone existing_dir new_dir
 git clone [git repo url]
 ```
 
-## 🌐 Managing Remotes
+# 🌐 Managing Remotes
 
 ### List Remotes
 ```bash
@@ -169,7 +169,7 @@ git push origin -d branch-name
 git push origin/upstream --tags
 ```
 
-## 🚀 Power Tips
+# 🚀 Power Tips
 
 ### Show Distribution Info
 ```bash
@@ -201,7 +201,7 @@ whoami
 man command
 ```
 
-## 🔄 Merge and Rebase
+# 🔄 Merge and Rebase
 
 ### Rewrite History
 ```bash
